@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 12;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+span:first-child {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0.2px rgba(255, 255, 255, 0.488) solid;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 6px 20px 6px 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+span:nth-child(2) {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 8px 18px 8px 18px;
+    font-size: 14px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bg img {
+    height: 700px;
+    width: 1520px;
+    opacity: 30%;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    z-index: 20;
+    text-align:center;
+    align-items: center;
+    padding: 150px 400px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text input {
+    height: 35px;
+    width: 250px;
+    padding: 10px 80px 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.648);
+    border-radius: 2px; 
+    margin: 10px;
+    background-color: rgba(31, 31, 31, 0.508);
+    
+}
+
+input::placeholder {
+    color: rgb(121, 119, 119);
+    font-size: 18px;
+    padding: 10px 40px 10px 10px;
+}
+
+.text button {
+    height: 60px;
+    width: 200px;
+    background-color: rgb(220, 3, 3);
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+.text button:hover {
+    background-color: rgb(172, 0, 0);
+}
+
+footer {
+    position:absolute;
+    top: 700px;
+    width: 1520px;
+    background: linear-gradient(to bottom, rgb(2 2 27 / 48%), black) ;
+}
+
+
+.scroll p {
+    color: white;
+    font-size: 20px;
+    padding: 65px 150px 5px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#bar {
+    display: flex;
+}
+
+.scroll ul {
+    display: flex;
+    margin: 20px 0px 5px 10px;
+    overflow: hidden;
+}
+
+.scrollLeft {
+    border: none;
+    padding: 40px 0px 40px 0px;
+    border-radius: 9px;
+    font-size: 30px;
+    align-items: center;
+    background-color: #181819;
+    margin: 100px 0px 100px 100px;
+}
+
+.scrollLeft:hover {
+    background-color: #333335;
+
+}
+
+.scrollRight {
+    border: none;
+    padding: 40px 0px 40px 0px;
+    border-radius: 9px;
+    font-size: 30px;
+    align-items: center;
+    background-color: #181819;
+    margin: 100px 100px 100px 40px;
+}
+
+.scrollRight:hover {
+    background-color: #333335;
+
+}
+
+.posters {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.posters li {
+    flex: 0 0 auto;
+}
+
+.posters img{
+    border-radius: 20px;
+    margin-top: 8px;
+    padding: 0px 15px;
+    height: 260px;
+    width: 190px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.posters img:hover {
+    transform: scale(1.08);
+}
+
+.scroll2 p {
+    color: white;
+    font-size: 20px;
+    padding: 65px 150px 5px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.scroll2 ul {
+    display: flex;
+    margin: 10px 150px 10px 150px;
+}
+
+.benefits h2 {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.benefits p {
+    color: rgb(133, 133, 133);
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.benefits li {
+    background: linear-gradient(to right, #1e1646, #1e1646);
+    background: linear-gradient(to top left, #4f0d0d40, #1e1646);
+    height: 250px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.benefits li svg {
+    float: right;
+
+}
+
+.questions p {
+    color: white;
+    font-size: 20px;
+    padding: 65px 150px 5px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.questions ul {
+    margin: 10px 150px 10px 150px;
+}
+
+.questions ul li {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding: 22px;
+    font-style: normal;
+    font-size: 24px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    
+}
+
+.questions ul li svg {
+    float: right;
+}
+
+.questions ul li:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.membership {
+    color: white;
+    text-align:center;
+    align-items: center;
+    padding: 50px 400px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.membership div {
+    display: flex;
+}
+.membership input {
+    height: 35px;
+    width: 600px;
+    padding: 10px 80px 10px 10px;
+    border: 1px solid rgba(143, 140, 140, 0.648);
+    border-radius: 2px; 
+    margin: 10px;
+    margin-top: 20px;
+    background-color: rgba(78, 78, 78, 0.359);
+    
+}
+
+input::placeholder {
+    color: rgb(121, 119, 119);
+    font-size: 18px;
+    padding: 10px 40px 10px 10px;
+}
+
+.membership button {
+    height: 60px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(220, 3, 3);
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+.membership button:hover {
+    background-color: rgb(172, 0, 0);
+}
+
+.call {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.call p {
+    color: rgb(158, 158, 158);
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navBar ul {
+    display: grid;
+    margin: 30px 150px 50px 150px;
+    grid-template-columns: 300px 300px 300px 300px;
+    color: rgb(158, 158, 158);
+    text-decoration: underline;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navBar ul li {
+    padding: 8px;
+}
+
+.english span {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0.2px rgba(255, 255, 255, 0.488) solid;
+    border-radius: 3px;
+    margin: 50px 150px;
+    padding: 6px 20px 6px 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.english p {
+    color: rgb(158, 158, 158);
+    margin: 40px 150px;
+    font-size: 14px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
