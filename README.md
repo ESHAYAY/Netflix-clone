@@ -46,6 +46,10 @@ A responsive Netflix home page clone built using HTML, CSS, and JavaScript. This
 
 ⚙️ Setup Instructions
 
+  Click on: https://netflifrontend.netlify.app/
+
+  OR
+
   Clone the repository: git clone https://github.com/ESHAYAY/netflix-clone.git
   
   Open index.html in your browser.
