@@ -56,8 +56,8 @@ A responsive Netflix home page clone built using HTML, CSS, and JavaScript. This
 
   No build step or dependencies required.
 
-🙌 Author
-  Made by Eshani✨ — feel free to reach out!
+ Author
+  Made by Eshani — feel free to reach out!
 
-📄 License
+ License
 This project is for educational purposes only and not intended for commercial use.
