@@ -2,32 +2,32 @@
 
 A responsive Netflix home page clone built using HTML, CSS, and JavaScript. This project replicates the visual design and layout of Netflix's landing page, including smooth poster scrolling and interactive UI components.
 
-🔥 Features
+ Features
 
-- 🎨 Stylish and responsive layout with Flexbox and Grid
+-  Stylish and responsive layout with Flexbox and Grid
 
-- 📜 Scrollable movie poster carousel with navigation buttons
+-  Scrollable movie poster carousel with navigation buttons
 
-- 📥 Subscription and membership form (UI only)
+-  Subscription and membership form (UI only)
 
-- 📱 Optimized structure for desktop viewing
+-  Optimized structure for desktop viewing
 
-- ✨ Hover animations and interactive effects
+-  Hover animations and interactive effects
 
-🚀 Technologies Used
+ Technologies Used
   - HTML5
   - CSS3 (with gradients, flex/grid, transitions)
   - JavaScript (for carousel functionality)
 
 
-📂 Project Structure
+ Project Structure
 
 ├── index.html
 ├── netflix.css 
 ├── netflix.js 
 ├── assets 
 
-📸 Screenshot
+ Screenshot
 
  ![image](https://github.com/user-attachments/assets/2191797c-b332-4166-b52b-3331d8dab74c)
  ![image](https://github.com/user-attachments/assets/5399e54b-4abf-4d36-9717-3e2c0571cd5a)
@@ -35,7 +35,7 @@ A responsive Netflix home page clone built using HTML, CSS, and JavaScript. This
  ![image](https://github.com/user-attachments/assets/b9a5335f-5839-4ebd-a657-16f7351b77f8)
 
 
-🧠 How It Works
+ How It Works
 
   The movie poster section uses a horizontal <ul> list with overflow-x: auto.
 
@@ -44,7 +44,7 @@ A responsive Netflix home page clone built using HTML, CSS, and JavaScript. This
   window.onload initializes the scroll behavior.
 
 
-⚙️ Setup Instructions
+ Setup Instructions
 
   Click on: https://netflifrontend.netlify.app/
 
